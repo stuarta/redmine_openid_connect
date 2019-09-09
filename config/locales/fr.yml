@@ -1,0 +1,23 @@
+# French strings go here for Rails i18n
+fr:
+  config:
+    enabled: Enabled
+    header: OpenID Connect Configuration
+    client_id: Client ID
+    openid_connect_server_url: OpenID Connect server url
+    scopes: OpenID Connect scopes (comma-separated)
+    client_secret: Client Secret
+    group: Authorized group (blank if all users are authorized)
+    admin_group: Admins group (members of this group are treated as admin)
+    dynamic_config_expiry: How often to retrieve openid configuration (default 1 day)
+
+  warning_unable_to_create: "Ne peut créer l'utilisateur %{user}: "
+  warning_failed_login: "Échec de connexion depuis %{remote} à %{time}."
+  error_alternate_account: Essayez avec un autre identifiant
+  error_invalid_oidc_request: Requête OpenID Connect invalide.
+  error_invalid_token: ID Token invalide.
+
+  click_login_redirect: Cliquez ici si la redirection ne fonctionne pas.
+  signed_out_html: "Vous avez été déconnecté. %{href}"
+  signed_out_href: Cliquez ici pour vous connecter à nouveau.
+  alert_wrong_target: "Wrong target origin: "
