@@ -1,1 +1,1 @@
-Vous avez été déconnecté. <a href="<%= oic_login_url %>">Cliquez ici pour vous connecter à nouveau</a>.
+<%= t('signed_out_html', href: link_to(t('signed_out_href'), oic_login_url))%>
