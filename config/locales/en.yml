@@ -10,3 +10,14 @@ en:
     group: Authorized group (blank if all users are authorized)
     admin_group: Admins group (members of this group are treated as admin)
     dynamic_config_expiry: How often to retrieve openid configuration (default 1 day)
+
+  warning_unable_to_create: "Unable to create user %{user}: "
+  warning_failed_login: "Failed login from %{remote} at %{time}."
+  error_alternate_account: Try a different account
+  error_invalid_oidc_request: Invalid OpendID Connect request.
+  error_invalid_token: Invalid ID Token.
+
+  click_login_redirect: "Click here if the login does not redirect you."
+  signed_out_html: "You have been signed out. %{href}"
+  signed_out_href: "Click here to sign in again."
+  alert_wrong_target: "Wrong target origin: "
